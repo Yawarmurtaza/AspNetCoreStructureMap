@@ -1,0 +1,11 @@
+﻿@model List<string>
+
+
+<h1>Welcome to Structure Map's support for ASP.Net Core application!</h1>
+
+<h2>We have the following types registered</h2>
+
+@foreach (string nextType in Model)
+{
+    <h4>@nextType</h4>
+}

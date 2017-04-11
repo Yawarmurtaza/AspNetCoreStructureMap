@@ -1,0 +1,9 @@
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\bin\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.deps.json
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\bin\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.runtimeconfig.json
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\bin\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.runtimeconfig.dev.json
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\bin\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.dll
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\obj\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.csprojResolveAssemblyReference.cache
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\obj\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.AssemblyInfo.cs
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\bin\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.pdb
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\obj\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.dll
+E:\GitRepository\AspNetCodeStructureMap.Web\AspNetCodeStructureMap.Web\obj\Debug\netcoreapp1.1\AspNetCodeStructureMap.Web.pdb
