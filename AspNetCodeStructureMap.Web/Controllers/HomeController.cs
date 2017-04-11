@@ -13,9 +13,13 @@ namespace AspNetCodeStructureMap.Web.Controllers
     public class HomeController : Controller
     {
         private readonly IRepository staffRepo;
-        public HomeController(IContainer injectedContainer)
+        private readonly IRepository customerRepository;
+        private readonly IStaffServiceManager staffSvcManager;
+        public HomeController(IContainer resolver, IStaffServiceManager staffSvcManager)
         {
-            this.staffRepo = injectedContainer.GetInstance<IRepository>("StaffDataRepository");
+            this.staffRepo = resolver.GetInstance<IRepository>("StaffDataRepository");
+            this.customerRepository = resolver.GetInstance<IRepository>("CustomerDataRepository");
+            this.staffSvcManager = staffSvcManager;
         }
 
         //public HomeController()
@@ -26,6 +30,8 @@ namespace AspNetCodeStructureMap.Web.Controllers
         {
             List<string> types = new List<string>();
             types.Add(this.staffRepo.GetType().Name);
+            types.Add(this.customerRepository.GetType().Name);
+            types.Add(this.staffSvcManager.GetType().Name);
             return this.View(types);
         }
     }

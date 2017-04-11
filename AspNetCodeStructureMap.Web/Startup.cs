@@ -55,11 +55,18 @@ namespace AspNetCodeStructureMap.Web
 
             container.Configure(configure: config =>
             {
-                //config.For<HomeController>().Use<HomeController>().Ctor<IRepository>().Is<StaffDataRepository>().Named("First");
-                //config.For<IRepository>().Use<StaffDataRepository>();
+                
+                config.Scan(scanner =>
+                {
+                    scanner.AssemblyContainingType(typeof(Startup));
+                    scanner.WithDefaultConventions();
+                    
+                });
+
                 config.For<IRepository>().Add(new StaffDataRepository()).Named("StaffDataRepository");
                 config.For<IRepository>().Add(new CustomerDataRepository()).Named("CustomerDataRepository");
            
+
                 config.Populate(services);
             });
 

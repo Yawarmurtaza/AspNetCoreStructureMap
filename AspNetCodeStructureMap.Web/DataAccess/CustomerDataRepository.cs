@@ -1,6 +1,15 @@
 ﻿namespace AspNetCodeStructureMap.Web.DataAccess
 {
 
+    public interface IStaffServiceManager
+    {
+    }
+
+    public class StaffServiceManager : IStaffServiceManager
+    {
+    }
+
+
     public interface IRepository
     {
     }
