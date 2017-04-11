@@ -20,6 +20,9 @@ namespace AspNetCodeStructureMap.Web.Controllers
             this.staffRepo = resolver.GetInstance<IRepository>("StaffDataRepository");
             this.customerRepository = resolver.GetInstance<IRepository>("CustomerDataRepository");
             this.staffSvcManager = staffSvcManager;
+
+
+            
         }
 
         //public HomeController()

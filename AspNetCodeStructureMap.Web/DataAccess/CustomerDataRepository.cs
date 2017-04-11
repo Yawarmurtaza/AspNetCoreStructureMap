@@ -1,6 +1,5 @@
 ﻿namespace AspNetCodeStructureMap.Web.DataAccess
 {
-
     public interface IStaffServiceManager
     {
     }
